@@ -94,9 +94,9 @@ nav{
     background-color: #0f0f0f;
 }
 
-nav item{
+ nav item{
     display: none;
-}
+ }
 
   @media (max-width: 1013px) {
     .nav-links {
