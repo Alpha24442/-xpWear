@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family:  sans-serif;
 }
 ::-webkit-scrollbar{
     background-color: #000000;
@@ -159,6 +159,7 @@ nav{
     margin-right: 10px;
     font-size: 40px;
     font-weight: 600;
+    font-family:  sans-serif;
     
 }
 .logo-container:hover {

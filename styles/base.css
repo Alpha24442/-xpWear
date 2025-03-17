@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:sans-serif;
 }
 ::-webkit-scrollbar{
     background-color: #000000;
@@ -132,7 +132,6 @@ body{
     align-items: center;
     text-decoration: none;
     border-radius: 5px;
-    font-family: "Monsterrat", sans-serif;
     font-size: 2em;
     color: rgb(255, 255, 255);
     font-weight: 600;
