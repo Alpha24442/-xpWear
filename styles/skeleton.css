@@ -243,9 +243,8 @@ nav{
 .navigation .btnLogin-popup{
     width: 100px;
     height: 40px;
-    background-color: transparent;
-    border: 2px solid #ffffff;
-    outline: orange;
+    background-color: orangered;
+    border: 2px dashed #ffffff;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
