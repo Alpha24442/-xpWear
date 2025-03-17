@@ -65,6 +65,7 @@ nav{
         nav{
             position: fixed;
             z-index: 1;
+
         }
         .search-container:hover{
             transform: scale(0.8);
@@ -81,8 +82,10 @@ nav{
                 display: flex;
             }
             .search-container{
-                right: 30px;
+                transform: scale(0.7);
+                right: 30px ;
                 margin-right:10px ;
+                z-index:2;
             }
             }
         
@@ -258,7 +261,7 @@ nav{
 footer {
     position:relative ;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #f24303;
     min-height: 50px;
     padding: 0px 0px;
