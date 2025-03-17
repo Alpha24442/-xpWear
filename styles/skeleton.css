@@ -269,6 +269,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 
  }
 
@@ -325,7 +326,6 @@ footer {
      display:flex ;
      min-height: 20px;
      width: 180px;
-     transform: scale(0.9);
      align-items: center;
      justify-content:center;
      flex-direction: column;
