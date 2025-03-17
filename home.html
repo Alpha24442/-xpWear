@@ -21,7 +21,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-       
+        img{
+            width: 100%;
+            height: 100%;
+        }
         .hero-section {
     position: relative;
     width: 100%;
@@ -46,7 +49,6 @@
 
 .hero-content {
     position: relative;
-    z-index: 2;
     max-width: 800px;
     padding: 20px;
 }
@@ -236,26 +238,49 @@
             top:-11px;
             background: #212121;
             border-radius:10px;
-            min-height: 300px ;
+            min-height: 70vh ;
             box-shadow: 10px 20px 15px rgba(69, 69, 69, 0.095);
             justify-items: center;
             align-items: center;
+            padding: 50px;
          }
+         .Games-container {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap: 15px;
+            width:92%;
+            max-width: 1400px;
+            background-color: #e5a505;
+            padding :30px;
+            border-radius: 5px;
+         }
+         .Game-card{
+            display: flex;
+            align-items: center;
+            border: #f20707 solid;
+            overflow: hidden;
+            height:1fr;
+         }
+         
          
     </style>
 </head>
 <body>
+    
     <nav>
+        
         <a href="home.html" class="logo-container">
              <img src="assets/favicon.png" alt="XPWear Logo" class="logo" width="65px" height="60px">
              <div class="logo1">+XPWear</div>
         </a>
- 
-        <div class="search-container">
-            <input type="text" placeholder="Search..." class="search-input">
-            <i class="bi bi-search "id="searchicon"></i>
-        </div>
-         <div class="navigation">
+        
+            <div class="search-container">
+                <input type="text" placeholder="Search..." class="search-input">
+                <i class="bi bi-search "id="searchicon"></i>
+            </div>
+        
+
+        <div class="navigation">
             
              <div class="nav-links">
                  <a href="home.html">Home</a>
@@ -440,43 +465,45 @@
             <button class="view-all-btn">VIEW ALL</button>
         </div>
         
-        <div class="product-container" id="">
-            <div class="product-card">
+        <div class="Games-container">
+
+            <div class="Game-card" id="1">
 
                 <img src="https://www.fangamer.com/cdn/shop/files/logo-undertale.svg?v=1692129753">
                 
             </div>
             
-            <div class="product-card">
+            <div class="Game-card" id="2">
                 <img src="https://www.fangamer.com/cdn/shop/files/logo-deltarune_new.svg?v=1692130941">
             </div>
-            <div class="product-card">
+
+            <div class="Game-card"id="3">
                 <img src="https://www.fangamer.com/cdn/shop/files/logo-stardew-valley.svg?v=1692129769">
                
             </div>
 
-            <div class="product-card">
+            <div class="Game-card" id="4">
                 <img src="https://www.fangamer.com/cdn/shop/files/logo-hades_new.svg?v=1692131269">
                 
             </div>
             
-            <div class="product-card">
+            <div class="Game-card" id="5">
                 <img src="https://www.fangamer.com/cdn/shop/files/god-of-war-ragnarok-logo.svg?v=1741114421">
                 
             </div>
-            <div class="product-card">
+            <div class="Game-card" id="6">
                 <img src="https://www.fangamer.com/cdn/shop/files/logo-horizon_new.svg?v=1692131247">
                
             </div>
-            <div class="product-card">
+            <div class="Game-card" id="7">
                 <img src="https://www.fangamer.com/cdn/shop/files/Street-Fighter-Logo2.svg?v=1737677341">
                 
             </div>
-            <div class="product-card">
+            <div class="Game-card" id="8">
                 <img src="https://www.fangamer.com/cdn/shop/files/mgs-logo_4c72084a-d48c-4c4e-a98a-d44809e324df.svg?v=1692905175">
                 
             </div>
-            <div class="product-card">
+            <div class="Game-card" id="9">
                 <img src="https://www.fangamer.com/cdn/shop/files/logo-hollow-knight_new.svg?v=1692130661">
                 
             </div>
