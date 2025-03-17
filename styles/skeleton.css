@@ -18,63 +18,9 @@
     background: linear-gradient(transparent,golden);
     
 }
-.search-container{
-    position: relative;
-    transform: scale(1);
-    transition: all 1s;
-    width: 50px;
-    height: 50px;
-    background: white;
-    box-sizing: border-box;
-    border-radius: 5px;
-    padding: 5px;
-    margin-left: 100px;
 
-}
 
-.search-container input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 30px;
-    outline: 0;
-    border: 0;
-    opacity:0;              
-    transition: opacity .4s; 
-    font-size: 1em;
-    border-radius: 5px;
-    padding: 0 20px;
-    
-}
 
-#searchicon{
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 2px;
-    color: orangered;
-    text-align: center;
-    font-size: 1.2em;
-    transition: 1s ;
-}
-
-.search-container:hover{
-    width: 300px;
-    cursor: pointer;
-}
-.search-container:hover input{
-    opacity: 1;
-}
-
-.search-container:hover #searchicon{
-    background:orangered;
-    color: white;
-}
 body{ 
     overflow-y:auto ;
     background: #0f0f0f; 
@@ -196,15 +142,70 @@ nav{
     color: #201b1b;
     transition: 1s;
 }
-
 .search-container{
+    position: relative;
+    transform: scale(1);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 100px;
     display: flex;
     align-items: center;
     background-color: #0f0f0f;
     border-radius: 50px;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 20px
+
 }
+
+.search-container input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    opacity:0;              
+    transition: opacity .4s; 
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 0 20px;
+    
+}
+
+#searchicon{
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 2px;
+    color: orangered;
+    text-align: center;
+    font-size: 1.2em;
+    transition: 1s ;
+}
+
+.search-container:hover{
+    width: 300px;
+    cursor: pointer;
+}
+.search-container:hover input{
+    opacity: 1;
+}
+
+.search-container:hover #searchicon{
+    background:orangered;
+    color: white;
+}
+
 
 .navigation{
     display: flex;
